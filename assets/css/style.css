@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,100;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif ;
+}
+
+header {
+    background-color: #192DED;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem 10rem;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo img {
+    width: 130px; 
+    height: auto; 
+}
+
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 30px;
+}
+
+.nav-link {
+    text-decoration:none;
+    font-size: 20px;
+    color: white;
+    font-weight: 350;
+}
+
+.imagem img{
+    width: 700px;
+    display: flex;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.section-sobre {
+    padding: 48px;
+    background-color: #EEEDED;
+}
+ 
+.sobre {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 34px;
+}
+
+.sobre h3 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.sobre h1 {
+    width: 60%;
+    font-size: 50px;
+    font-weight: 600;
+    color: #192DED;
+}
+
+.sobre p {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.sobre button{
+    padding: 16px;
+    background-color: #192DED;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.sobre button a{
+    color: white;
+    text-decoration: none;
+}
+.cards{
+    display: flex;
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.cards p{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    padding: 25px;
+}
+
+.cards h1{
+    margin: 10px;
+    padding: 30px;
+    font-size: 24px;
+}
+
+.cards button{
+    width: 25%;
+    padding: 10px;
+    color: #192DED;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 350;
+}
+
+.cards button a{
+    text-decoration: none;
+}
+.card-analise{
+    background-color: #1B31FF;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.card-planejamento{
+    background-color: #0012B2;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.card-projeto{
+    background-color: #000C75;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.imagem-lupa{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin:0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.imagem-lupa img{
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.imagem-calendario{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin:0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.imagem-calendario img{
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+.imagem-predio{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin:0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.imagem-predio img{
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.equipe {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+} 
+.equipe h1 span{
+    color: #1B31FF;
+}
+.equipe h1 {
+    font-size: 64px;
+}
+.equipe p{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 50px;
+    text-align: center;
+}
+.section-equipe{
+    background: linear-gradient(to bottom,white 60%,#1B31FF 0%) ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 70px;
+}
+
+.equipe-imagens{
+    display: flex;
+    margin: 0 auto;
+    gap: 80px;
+}
+
+.container-img{
+    width: 100%;
+    display: flex;
+    padding-bottom: 30px;
+    height: 60%;
+    margin: 40px;
+}
+.historia{
+    background-color: #EEEDED;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px;
+    
+}
+
+
+
+.div-part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.div-part1 p{
+    width: 280px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 40px;
+}
+
+.div-part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    gap: 30px;
+}
+
+.div-part2 p{
+    width: 450px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.div-part2 button{
+    padding: 13px;
+    background-color: #192DED;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    width: 150px;
+}
+.div-part2 button a{
+    color: white;
+    text-decoration: none;
+}
+.trabalhamos{
+    background-color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    padding: 80px;
+}
+
+.info h1{
+    font-size: 75px;
+    color: #1B31FF;
+}
+
+.info p{
+    width: 1000px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+button.slick-prev{
+    display: none;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position:absolute;
+    top: 50%;
+    left: 30px;
+}
+button.slick-next{
+    display: none;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position:absolute;
+    top: 50%;
+    right: 65px;
+}
+    *{
+    box-sizing: border-box;
+    }
+    
+    .slider {
+      width: 80%;
+      margin: 100px auto;
+    }
+    
+    .slick-slide {
+      margin: 0px 20px;
+    }
+    
+    .slick-slide img {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+    
+    .slick-slide {
+      transition: all ease-in-out 0.3s;
+      opacity: 0.2;
+    }
+    
+    .slick-active {
+      opacity: 0.5;
+    }
+    
+    .slick-current {
+      opacity: 1;
+    }
+    .carousel {
+    max-width: 85%;
+    margin: 0 auto;
+    }
+    button.slick-prev:before,
+    button.slick-next:before {
+    color: #1B31FF;
+    font-size: 60px;
+}
+
+.carousel img{
+    height: 380px;
+}
+
+.contato{
+    background-color: white;
+}
+
+.div-contato{
+    margin-top: 200px;
+    background-color: #1B31FF;
+    width: 75%;
+    padding: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+.div-contato h1{
+    color: white;
+    font-size: 75px;
+}
+
+.div-contato p{
+    color: white;
+    font-size: 24px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.div-contato button{
+    padding: 15px;
+    background-color: white;
+    border: none;
+    color: #1B31FF;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 220px;
+    height: 55px;
+}
+
+.div-contato button a {
+    color: #1B31FF;
+    text-decoration: none;
+}
+
+.rodape{
+    background-color: #1B31FF;
+    margin-top: 400px;
+    padding: 20px;
+}
+
+.text-rodape{
+    display: flex;
+}
+
+.text-rodape img{
+    margin-right: 20px;
+    width: 30px;
+
+}
+
+.text-rodape p{
+    color: white;
+    font-size: 24px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0 auto;
+    text-align: start;
+
+}
+
+
+
+
+  
+
+
+
+
+
+
+

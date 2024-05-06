@@ -1,0 +1,232 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box; /* Adicionando esta propriedade para garantir que padding e border não afetem a largura total dos elementos */
+    }
+    
+    
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        display: flex;
+    }
+    
+    .logo img {
+        width: 130px; 
+        height: auto; 
+        display: block;
+    }
+    
+    
+    
+    .nav-list{
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-list ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .nav-item{
+        margin: 0 30px;
+    }
+    
+    .nav-link {
+        text-decoration:none;
+        font-size: 20px;
+        color: white;
+        font-weight: 350;
+    }
+    
+    .imagem img{
+        width: 400px;
+        display: flex;
+        margin-right: 10px;
+        margin-top: 80px;
+    }
+    
+    .part2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .section-sobre {
+        padding: 48px;
+        background-color: #EEEDED;
+    }
+     
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        gap: 12px;
+    }
+    
+    .sobre h3 {
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    
+    .sobre h1 {
+        font-size: 28px;
+        width: 180px;
+        font-weight: 700;
+        color: #192DED;
+    }
+    
+    .sobre p {
+        font-size: 14px;
+        font-weight: 300;
+        font-style: italic;
+    }
+    
+    .sobre button{
+        padding: 10px;
+        background-color: #192DED;
+        width: 200px;
+        border: 1px solid red;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    .sobre button a{
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+    }
+   
+
+    .cards{
+        display: flex;
+        justify-content: space-between; /* Ajusta o espaçamento entre os cards */
+        flex-wrap: wrap; /* Permite que os cards se ajustem na tela de forma responsiva */
+        padding: 20px 0; /* Espaçamento vertical */
+    }
+    
+    .card-analise{
+        flex: 1 1 30%; /* Cada card pode crescer até ocupar cerca de 30% do espaço disponível */
+        margin: 10px; /* Margem ao redor dos cards para não colarem uns nos outros */
+        padding: 20px; /* Espaçamento interno para conteúdo dos cards */
+        text-align: center; /* Centraliza o texto dentro dos cards */
+        background-color: #1B31FF; /* Cor de fundo comum para todos */
+        color: white; /* Cor de texto comum para todos */
+    }
+
+    .card-planejamento{
+        flex: 1 1 30%; /* Cada card pode crescer até ocupar cerca de 30% do espaço disponível */
+        margin: 10px; /* Margem ao redor dos cards para não colarem uns nos outros */
+        padding: 20px; /* Espaçamento interno para conteúdo dos cards */
+        text-align: center; /* Centraliza o texto dentro dos cards */
+        background-color: #0012B2; /* Cor de fundo comum para todos */
+        color: white; /* Cor de texto comum para todos */
+    }
+
+    .card-projeto{
+        flex: 1 1 30%; /* Cada card pode crescer até ocupar cerca de 30% do espaço disponível */
+        margin: 10px; /* Margem ao redor dos cards para não colarem uns nos outros */
+        padding: 20px; /* Espaçamento interno para conteúdo dos cards */
+        text-align: center; /* Centraliza o texto dentro dos cards */
+        background-color:  #000C75; /* Cor de fundo comum para todos */
+        color: white; /* Cor de texto comum para todos */
+    }
+
+    
+    .card-analise h1, .card-planejamento h1, .card-projeto h1{
+        font-size: 22px; /* Tamanho de fonte para títulos nos cards */
+        margin-bottom: 10px; /* Espaço abaixo dos títulos */
+    }
+    
+    .card-analise p, .card-planejamento p, .card-projeto p{
+        font-size: 14px; /* Tamanho de fonte para parágrafos nos cards */
+    }
+    
+    .card-analise button, .card-planejamento button, .card-projeto button{
+        width: 50%; /* Faz o botão ocupar toda a largura do card */
+        padding: 10px; /* Espaçamento interno do botão */
+        margin-top: 15px; /* Espaço acima do botão */
+        background-color: white; /* Cor de fundo do botão */
+        color: #1B31FF; /* Cor de texto do botão */
+        border-radius: 5px; /* Bordas arredondadas para o botão */
+    }
+
+
+    .container-img{
+        width: 50%;
+    }
+    
+    .equipe-imagens{
+        display: flex;
+        margin: 0 auto;
+        gap: 40px;
+    }
+
+    .historia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-part1 {
+        display: block;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    
+    .div-part1 img {
+        width: 200px;
+    }
+    
+    .div-part1 p {
+        font-size: 18px;
+    }
+    
+    .div-part2 {
+        display: block;
+        width: 450px;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .div-part2 p{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .info p{
+        width: 600px;
+    }
+
+    .carousel {
+        max-width: 100%; /* Ajusta a largura máxima para preencher a tela */
+        padding: 0; /* Remove o padding para evitar espaços indesejados */
+    }
+
+
+    
+    .carousel div{
+        width: 100%;
+    }
+
+    .carousel, .slick-slide img {
+        width: 100%; /* Garante que a imagem preencha a largura disponível */
+        height: 200px;
+        margin-bottom: 40px;
+    }
+
+    .contato{
+        display: block;
+        width: 900px;
+    }
+}
